@@ -1,6 +1,4 @@
 // Unless explicitly stated otherwise all files in this repository are licensed under the Apache License Version 2.0.
-// This product includes software developed at Datadog (https://www.datadoghq.com/).
-// Copyright 2024 Datadog, Inc.
 
 //! FlipHash is a consistent range-hashing function that hashes an integer
 //! `key` into a value of `..=range_end`, where `range_end` is parameterized.

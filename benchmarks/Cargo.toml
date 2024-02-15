@@ -2,7 +2,6 @@
 name = "fliphash_benchmarks"
 version = "0.1.0"
 edition = "2021"
-authors = ["Charles Masson <charles@datadog.com>"]
 
 [dependencies]
 fliphash = { version = "0.1.0", path = "..", features = ["xxh3"] }

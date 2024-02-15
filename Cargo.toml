@@ -3,11 +3,8 @@ name = "fliphash"
 description = "A constant-time consistent range-hashing algorithm"
 version = "0.1.0"
 edition = "2021"
-authors = ["Charles Masson <charles@datadog.com>"]
 license-file = "LICENSE"
 keywords = ["hashing", "consistent", "no-std"]
-homepage = "https://github.com/DataDog/fliphash-rs"
-repository = "https://github.com/DataDog/fliphash-rs"
 readme = "README.md"
 
 [features]
