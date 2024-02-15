@@ -1,0 +1,26 @@
+[package]
+name = "fliphash_benchmarks"
+version = "0.1.0"
+edition = "2021"
+authors = ["Charles Masson <charles@datadog.com>"]
+
+[dependencies]
+fliphash = { version = "0.1.0", path = "..", features = ["xxh3"] }
+
+clap = { version = "4.5.0", features = ["derive"] }
+itertools = { version = "0.12.1" }
+plotly = { version = "0.8.4", features = ["kaleido"] }
+rand = { version = "0.8.5", features = ["std_rng"] }
+serde = { version = "1.0.196" }
+serde_derive = { version = "1.0.196" }
+serde_json = { version = "1.0.113" }
+statrs = { version = "0.16.0" }
+xxhash-rust = { version = "0.8.8", default-features = false, features = ["const_xxh3", "xxh3"] }
+
+[dev-dependencies]
+criterion = { version = "0.5.1", features = ["html_reports"] }
+proptest = { version = "1.4.0" }
+
+[[bench]]
+name = "perf"
+harness = false
