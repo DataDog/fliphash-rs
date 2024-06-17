@@ -1,5 +1,7 @@
 # FlipHash
 
+[Paper](https://arxiv.org/abs/2402.17549) | [Documentation](https://docs.rs/fliphash/0.1.0/fliphash/) | [Crate](https://crates.io/crates/fliphash)
+
 FlipHash is a consistent range-hashing function that hashes an integer
 `key` into a value of `..=range_end`, where `range_end` is parameterized.
 It is:
