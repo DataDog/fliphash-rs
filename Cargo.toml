@@ -17,13 +17,13 @@ xxh3 = ["xxhash-rust"]
 xxhash-rust = { version = "0.8.8", optional = true, default-features = false, features = ["const_xxh3", "xxh3"] }
 
 [dev-dependencies]
-itertools = { version = "0.12.1" }
+itertools = { version = "0.14.0" }
 num-traits = { version = "0.2.18" }
 ordered-float = { version = "4.2.0" }
 proptest = { version = "1.4.0" }
-proptest-derive = { version = "0.4.0" }
-rand = { version = "0.8.5", features = ["std_rng"] }
-statrs = { version = "0.16.0" }
+proptest-derive = { version = "0.8.0" }
+rand = { version = "0.10.0", features = ["std_rng"] }
+statrs = { version = "0.18.0" }
 test-case = { version = "3.3.1" }
 
 [workspace]
