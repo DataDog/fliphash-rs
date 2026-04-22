@@ -8,7 +8,7 @@ authors = ["Charles Masson <charles@datadog.com>"]
 fliphash = { version = "0.1.0", path = "..", features = ["xxh3"] }
 
 clap = { version = "4.5.0", features = ["derive"] }
-itertools = { version = "0.12.1" }
+itertools = { version = "0.14.0" }
 plotly = { version = "0.8.4", features = ["kaleido"] }
 rand = { version = "0.8.5", features = ["std_rng"] }
 serde = { version = "1.0.196" }
