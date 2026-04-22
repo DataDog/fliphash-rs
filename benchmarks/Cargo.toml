@@ -18,7 +18,7 @@ statrs = { version = "0.16.0" }
 xxhash-rust = { version = "0.8.8", default-features = false, features = ["const_xxh3", "xxh3"] }
 
 [dev-dependencies]
-criterion = { version = "0.5.1", features = ["html_reports"] }
+criterion = { version = "0.8.0", features = ["html_reports"] }
 proptest = { version = "1.4.0" }
 
 [[bench]]
